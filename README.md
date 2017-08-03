@@ -37,6 +37,8 @@ We are excited to share with the world a chat bot that we affectionately call Cy
 
 3)  Download our plugins from this github repo to the plugins directory and restart the chatbot
 
+4)  Add VirusTotal and Google Safebrowsing API keys to python scripts
+
 
 # Props
 Errbot developers for the fantastic tool and customer service  
