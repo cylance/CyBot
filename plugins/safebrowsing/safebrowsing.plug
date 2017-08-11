@@ -1,0 +1,9 @@
+[Core]
+Name = SafeBrowsing
+Module = safebrowsing
+
+[Documentation]
+Description = This is a simple plugin that will query the Google SafeBrowsing API.
+
+[Python]
+Version = 2+

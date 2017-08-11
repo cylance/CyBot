@@ -1,0 +1,9 @@
+[Core]
+Name = urldecode
+Module = urldecode
+
+[Documentation]
+Description = This is a simple plugin that will decode encoded URLs
+
+[Python]
+Version = 2+

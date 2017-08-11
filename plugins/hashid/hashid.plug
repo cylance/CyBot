@@ -1,0 +1,9 @@
+[Core]
+Name = hashid
+Module = hashid
+
+[Documentation]
+Description = This is a simple plugin that will try to determine the type of hash provided.
+
+[Python]
+Version = 2+

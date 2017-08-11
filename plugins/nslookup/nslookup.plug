@@ -1,0 +1,9 @@
+[Core]
+Name = nslookup
+Module = nslookup
+
+[Documentation]
+Description = This is a simple plugin that will perform forward and reverse DNS lookups.
+
+[Python]
+Version = 2+

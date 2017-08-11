@@ -1,0 +1,9 @@
+[Core]
+Name = Commands
+Module = commands
+
+[Documentation]
+Description = This is a simple plugin to list the available commands
+
+[Python]
+Version = 2+

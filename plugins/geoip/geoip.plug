@@ -1,0 +1,9 @@
+[Core]
+Name = geoip
+Module = geoip
+
+[Documentation]
+Description = This is a simple plugin that will perform a GeoIP lookup using the freegeoip.net API.
+
+[Python]
+Version = 2+

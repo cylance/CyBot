@@ -1,0 +1,9 @@
+[Core]
+Name = whois
+Module = whois
+
+[Documentation]
+Description = This is a simple plugin that will query hackertarget's WHOIS API.
+
+[Python]
+Version = 2+

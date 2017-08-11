@@ -1,0 +1,9 @@
+[Core]
+Name = codename
+Module = codename
+
+[Documentation]
+Description = This is a simple plugin that will query Mark Biek's codename generator and return the codename.
+
+[Python]
+Version = 2+

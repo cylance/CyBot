@@ -1,0 +1,9 @@
+[Core]
+Name = unixtime
+Module = unixtime
+
+[Documentation]
+Description = This is a simple plugin that will convert a unix timestamp to a human readable format.  For example:  1347517370 -> 2012-09-13 02:22:50
+
+[Python]
+Version = 2+

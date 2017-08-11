@@ -1,0 +1,9 @@
+[Core]
+Name = linkextractor
+Module = linkextractor
+
+[Documentation]
+Description = This is a simple plugin that will extract links from a site.
+
+[Python]
+Version = 2+
