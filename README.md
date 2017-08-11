@@ -35,9 +35,11 @@ We are excited to share with the world a chat bot that we affectionately call Cy
 
 2)  Configure errbot to work with your chat platform:  http://errbot.io/en/latest/user_guide/setup.html#id1
 
-3)  Download our plugins from this github repo to the plugins directory and restart the chatbot
+3)  Download our plugins from this github repo and copy them into the errbot plugins directory
 
 4)  Add VirusTotal and Google Safebrowsing API keys to python scripts
+
+5)  Start errbot
 
 
 # Props
@@ -48,5 +50,6 @@ Google Safebrowsing - https://developers.google.com/safe-browsing/ and Jun C. Va
 Hashid - C0re  
 Unshorten - unshorten.me  
 Codename - https://mark.biek.org/code-name/
+Black Hat Arsenal team for the amazing support and tool release venue
 
-People:  Bill Hau, Corey White, Dennis Hanzlik, Ian Ahl, Dave Pany, Dan Dumond, Kyle Champlin
+People:  Bill Hau, Corey White, Dennis Hanzlik, Ian Ahl, Dave Pany, Dan Dumond, Kyle Champlin, Kierian Evans, Andrew Callow, Mark Stevens
