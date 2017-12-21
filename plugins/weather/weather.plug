@@ -1,0 +1,9 @@
+[Core]
+Name = weather
+Module = weather
+
+[Documentation]
+Description = This is a simple plugin that will query for the weather in a specified zip code (Powered by Weather Underground API  hxxp://api[.]wunderground[.]com/).
+
+[Python]
+Version = 2+
