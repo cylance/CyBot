@@ -1,0 +1,9 @@
+[Core]
+Name = time
+Module = time
+
+[Documentation]
+Description = This is a simple plugin that will query for the current time in a specified timezone (Powered by World Clock API hxxp://worldclockapi[.]com/).
+
+[Python]
+Version = 2+
