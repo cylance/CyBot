@@ -1,0 +1,9 @@
+[Core]
+Name = secnews
+Module = secnews
+
+[Documentation]
+Description = This is a simple plugin that will query Google News for CyberSecurity.
+
+[Python]
+Version = 2+
