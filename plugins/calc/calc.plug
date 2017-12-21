@@ -1,0 +1,9 @@
+[Core]
+Name = calc
+Module = calc
+
+[Documentation]
+Description = This is a simple plugin that will perform basic arithmetic.  For example:  2*2*2=8.0  Props: hxxps://gist[.]github[.]com/cammckinnon/3971894
+
+[Python]
+Version = 2+
