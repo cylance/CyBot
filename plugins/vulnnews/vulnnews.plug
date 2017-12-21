@@ -1,0 +1,9 @@
+[Core]
+Name = vulnnews
+Module = vulnnews
+
+[Documentation]
+Description = This is a simple plugin that will query Google News for Cyber vulnerabilities.
+
+[Python]
+Version = 2+
