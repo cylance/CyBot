@@ -1,0 +1,9 @@
+[Core]
+Name = bitcoin
+Module = bitcoin
+
+[Documentation]
+Description = This is a simple plugin that will query a bitcoin API and retrieve current exchange rates (Powered by CoinDesk https://www[.]coindesk[.]com/price/).
+
+[Python]
+Version = 2+
