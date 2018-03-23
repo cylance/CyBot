@@ -52,10 +52,10 @@ We are excited to share with the world a chat bot that we affectionately call Cy
 Errbot developers for the fantastic tool and customer service  
 VirusTotal  
 geoip - freegeoip.net  
-Google Safebrowsing - https://developers.google.com/safe-browsing/ and Jun C. Valdez
+Google Safebrowsing - https://developers.google.com/safe-browsing/ and Jun C. Valdez  
 Hashid - C0re  
 Unshorten - unshorten.me  
-Codename - https://mark.biek.org/code-name/
+Codename - https://mark.biek.org/code-name/  
 Black Hat Arsenal team for the amazing support and tool release venue
 
 People:  Bill Hau, Corey White, Dennis Hanzlik, Ian Ahl, Dave Pany, Dan Dumond, Kyle Champlin, Kierian Evans, Andrew Callow, Mark Stevens
