@@ -1,0 +1,9 @@
+[Core]
+Name = cc
+Module = cc
+
+[Documentation]
+Description = This plugin validates credit card numbers and attempts to determine the brand.  For example: 4012888888881881  (Props:  Dave Pany's CDPO) 
+
+[Python]
+Version = 2+
