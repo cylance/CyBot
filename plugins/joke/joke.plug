@@ -1,0 +1,9 @@
+[Core]
+Name = joke
+Module = joke
+
+[Documentation]
+Description = This is a simple plugin that will query a joke API and retrieve a joke (Powered by icanhazdadjoke[.]com).
+
+[Python]
+Version = 2+
