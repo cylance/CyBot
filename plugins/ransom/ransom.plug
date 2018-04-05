@@ -1,0 +1,9 @@
+[Core]
+Name = ransom
+Module = ransom
+
+[Documentation]
+Description = This is a plugin that will query a Google docs Spreadsheet for the latest infomration on Ransomware (Powered by http[:]//goo[.]gl/b9R8DE).
+
+[Python]
+Version = 2+
