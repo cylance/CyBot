@@ -1,0 +1,9 @@
+[Core]
+Name = wintime
+Module = wintime
+
+[Documentation]
+Description = This is a simple plugin that will convert a Windows timestamp to a human readable format.  For example: 131580340430000000 -> Monday, December 18, 2017 1:27:23 AM
+
+[Python]
+Version = 2+
