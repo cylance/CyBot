@@ -1,0 +1,9 @@
+[Core]
+Name = stats
+Module = stats
+
+[Documentation]
+Description = This plugin queries its own logs to provides stats on usage.
+
+[Python]
+Version = 2+
