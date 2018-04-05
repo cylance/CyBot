@@ -1,0 +1,9 @@
+[Core]
+Name = uastring
+Module = uastring
+
+[Documentation]
+Description = This plugin parses a user agent string to determine the likely operating system and browser type.
+
+[Python]
+Version = 2+
