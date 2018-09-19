@@ -1,0 +1,9 @@
+[Core]
+Name = whatsyourip
+Module = whatsyourip
+
+[Documentation]
+Description = This plugin returns CyBot's external IP Address (Powered by ipinfo.io/ip).
+
+[Python]
+Version = 2+
