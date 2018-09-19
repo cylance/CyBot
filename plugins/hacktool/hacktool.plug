@@ -1,0 +1,9 @@
+[Core]
+Name = hacktool
+Module = hacktool
+
+[Documentation]
+Description = This plugin will query a Google Sheets file for information on common hacker tools (Powered by huntoperator).
+
+[Python]
+Version = 2+
