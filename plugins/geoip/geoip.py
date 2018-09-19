@@ -10,9 +10,9 @@ class geoip(BotPlugin):
         url = query
         headers = {
             "Accept-Encoding": "gzip, deflate",
-            "User-Agent" : "CyBot"
+            "User-Agent" : "You all rock!"
             }
-        response = requests.get('http://freegeoip.net/json/' + url,
+        response = requests.get('http://ip-api.com/json/' + url,
             headers=headers)
 
         str_resp = response.text
