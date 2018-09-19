@@ -1,0 +1,9 @@
+[Core]
+Name = cve
+Module = cve
+
+[Documentation]
+Description = This plugin queries a CVE database (Powered by CIRCL https://www[.]circl[.]lu).
+
+[Python]
+Version = 2+
