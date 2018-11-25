@@ -15,7 +15,7 @@ We are excited to share with the world a chat bot that we affectionately call Cy
 
  **== Network commands ==**
 
- !vt \<URL> - VirusTotal Query
+ !vt \<URL> - VirusTotal Query  
  !safebrowsing \<URL> - Google Safebrowsing lookup (ex:  ihaveaproblem[.]info) (Props: Google)  
  !whois \<domain> - WHOIS Query (ex: cylance[.]com) (Props:  hackertarget[.]com)  
  !nslookup \<FQDN|IP> - DNS forward/reverse Query (ex: www[.]cylance[.]com)  
@@ -45,7 +45,7 @@ We are excited to share with the world a chat bot that we affectionately call Cy
  !wintime \<epoch> - Convert Windows time (100-nanosecond intervals since January 1, 1601) to human readable (ex: 131580340430000000)  
  !calc \<arithmetic input> - Performs basic arithmetic (Valid input: [0-9]+-/)  (ex: 22*3)  
  !bitcoin - Polls the latest Bitcoin Price Index (Props: CoinDesk)  
- !whatsyourip - Returns CyBot's public IP Address (Props: ipinfo[.]io/ip)
+ !whatsyourip - Returns CyBot's public IP Address (Props: ipinfo[.]io/ip)  
  !joke - Queries an on-line API repository of jokes (Props: icanhazdadjoke)  
  !codename - Generates a 2 word project codename (Props: Mark Biek)  
 
@@ -65,7 +65,7 @@ We are excited to share with the world a chat bot that we affectionately call Cy
 # Props
 Errbot developers for the fantastic tool and customer service  
 VirusTotal  
-geoip - freegeoip.net  
+geoip - ip-api.com    
 Google Safebrowsing - https://developers.google.com/safe-browsing/ and Jun C. Valdez  
 Hashid - C0re  
 Unshorten - unshorten.me  
