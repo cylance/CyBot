@@ -16,7 +16,7 @@ We are excited to share with the world a chat bot that we affectionately call Cy
  **== Network commands ==**
 
  !vt \<URL> - VirusTotal Query  
- !safebrowsing \<URL> - Google Safebrowsing lookup (ex:  ihaveaproblem[.]info) (Props: Google)  
+ !safebrowsing \<URL> - Google Safebrowsing lookup (ex:  ihaveaproblem[.]info) (Props: Google & Jun C. Valdez)  
  !whois \<domain> - WHOIS Query (ex: cylance[.]com) (Props:  hackertarget[.]com)  
  !nslookup \<FQDN|IP> - DNS forward/reverse Query (ex: www[.]cylance[.]com)  
  !geoip \<FQDN|IP> - Perform GeoIP lookup of host (ex: www[.]cylance[.]com) (Props: ip-api[.]com)  
@@ -38,7 +38,7 @@ We are excited to share with the world a chat bot that we affectionately call Cy
  **== Misc ==**
 
  !stats \<YYYY or YYYY-MM or YYYY-MM-DD> - Produce usage statistics for a day or month (ex: 2017-12)  
- !cc \<Credit Card Number> - Tests validity of a CC number and attempts to determine the brand (ex: 4012888888881881 or 378282246310005)  
+ !cc \<Credit Card Number> - Tests validity of a CC number and attempts to determine the brand (ex: 4012888888881881 or 378282246310005) (Props:  David Pany)  
  !time \<timezone> - Query time in specified timezone (ex: utc)  
  !weather \<zipcode> - Query the weather in a specified zip code (ex: 21144)  
  !unixtime \<epoch> - Convert Unix time (seconds since Jan 1, 1970) to human readable (ex: 1347517370)  
@@ -62,14 +62,15 @@ We are excited to share with the world a chat bot that we affectionately call Cy
 5)  Start errbot
 
 
-# Props
+# Additional Props
 Errbot developers for the fantastic tool and customer service  
 VirusTotal  
 geoip - ip-api.com    
 Google Safebrowsing - https://developers.google.com/safe-browsing/ and Jun C. Valdez  
-Hashid - C0re  
 Unshorten - unshorten.me  
 Codename - https://mark.biek.org/code-name/  
+whatsyourip - ipinfo[.]io/ip  
+bitcoin - coindesk  
 Black Hat Arsenal team for the amazing support and tool release venue
 
-People:  Bill Hau, Corey White, Dennis Hanzlik, Ian Ahl, Dave Pany, Dan Dumond, Kyle Champlin, Kierian Evans, Andrew Callow, Mark Stevens
+Others:  Bill Hau, Corey White, Dennis Hanzlik, Ian Ahl, Dave Pany, Dan Dumond, Kyle Champlin, Kierian Evans, Andrew Callow, Mark Stevens
