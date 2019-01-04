@@ -12,7 +12,7 @@ class Commands(BotPlugin):
 
 ##== Network commands ==##
  !vt <URL> - VirusTotal Query
- !safebrowsing <URL> - Google Safebrowsing lookup (ex:  ihaveaproblem[.]info) (Props: Google)
+ !safebrowsing <URL> - Google Safebrowsing lookup (ex:  ihaveaproblem[.]info) (Props: Google and Jun C. Valdez)
  !whois <domain> - WHOIS Query (ex: cylance[.]com) (Props:  hackertarget[.]com)
  !nslookup <FQDN|IP> - DNS forward/reverse Query (ex: www[.]cylance[.]com)
  !geoip <FQDN|IP> - Perform GeoIP lookup of host (ex: www[.]cylance[.]com) (Props: ip-api[.]com)
@@ -32,7 +32,7 @@ class Commands(BotPlugin):
 
 ##== Misc ==##
  !stats <YYYY or YYYY-MM or YYYY-MM-DD> - Produce usage statistics for a day or month (ex: 2017-12)
- !cc <Credit Card Number> - Tests validity of a CC number and attempts to determine the brand (ex: 4012888888881881 or 378282246310005)
+ !cc <Credit Card Number> - Tests validity of a CC number and attempts to determine the brand (ex: 4012888888881881 or 378282246310005) (Props: David Pany)
  !time <timezone> - Query time in specified time zone (ex: utc)
  !weather <zipcode> - Query the weather in a specified zip code (ex: 21144)
  !unixtime <epoch> - Convert Unix time (seconds since Jan 1, 1970) to human readable (ex: 1347517370)
