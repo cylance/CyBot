@@ -11,15 +11,15 @@ We are excited to share with the world a chat bot that we affectionately call Cy
  **== File commands ==**
 
  !vt \<hash> - VirusTotal Query (ex: 57f222d8fbe0e290b4bf8eaa994ac641)  
- !hashid \<hash> - Identify a hash type (e.g. MD5, SHA1) (Props:  c0re)  
+ !hashid \<hash> - Identify a hash type (e.g. MD5, SHA1)  
 
  **== Network commands ==**
 
  !vt \<URL> - VirusTotal Query  
- !safebrowsing \<URL> - Google Safebrowsing lookup (ex:  ihaveaproblem[.]info) (Props: Google & Jun C. Valdez)  
- !whois \<domain> - WHOIS Query (ex: cylance[.]com) (Props:  hackertarget[.]com)  
+ !safebrowsing \<URL> - Google Safebrowsing lookup (ex:  ihaveaproblem[.]info)  
+ !whois \<domain> - WHOIS Query (ex: cylance[.]com)   
  !nslookup \<FQDN|IP> - DNS forward/reverse Query (ex: www[.]cylance[.]com)  
- !geoip \<FQDN|IP> - Perform GeoIP lookup of host (ex: www[.]cylance[.]com) (Props: ip-api[.]com)  
+ !geoip \<FQDN|IP> - Perform GeoIP lookup of host (ex: www[.]cylance[.]com)  
  !unshorten \<shortened URL> - Unshortens URLs (ex: goo[.]gl/IGL1lE)  
  !linkextractor \<FQDN|IP> - Extracts links from a site and safely displays them (ex: hxxps://www[.]google[.]com)  
  !urldecode \<url> - Decodes encoded URLs (ex: /%75%72%6C?%73%61=%74)  
@@ -27,27 +27,27 @@ We are excited to share with the world a chat bot that we affectionately call Cy
 
 **== Threat and Vulnerability Research ==**
 
- !ransom \<search string> - Indentify ransomware by searching the Ransomware Overview Spreadsheet (Props:  http[:]//goo[.]gl/b9R8DE)  
- !threat \<search string> - Search APT group activity mapped to MITRE ATT&CK Framework (Props:  huntoperator)  
- !aptgroup \<search string> - Retrieve information on common APT groups (Props:  huntoperator)  
- !hacktool \<search string> - Retrieve information on common hacking tools (Props:  huntoperator)  
- !cve \<#> - Return the last n CVE's (Props: CIRCL https[:]//www[.]circl[.]lu)  
- !secnews - (Use as Private Message Only) Latest security news (Props: Google News - CyberSecurity)  
- !vulnnews - (Use as Private Message Only) Latest vulnerability news (Props:  Google News - CVE Vulnerability)  
+ !ransom \<search string> - Indentify ransomware by searching the Ransomware Overview Spreadsheet  
+ !threat \<search string> - Search APT group activity mapped to MITRE ATT&CK Framework  
+ !aptgroup \<search string> - Retrieve information on common APT groups  
+ !hacktool \<search string> - Retrieve information on common hacking tools  
+ !cve \<#> - Return the last n CVE's  
+ !secnews - (Use as Private Message Only) Latest security news  
+ !vulnnews - (Use as Private Message Only) Latest vulnerability news  
 
  **== Misc ==**
 
  !stats \<YYYY or YYYY-MM or YYYY-MM-DD> - Produce usage statistics for a day or month (ex: 2017-12)  
- !cc \<Credit Card Number> - Tests validity of a CC number and attempts to determine the brand (ex: 4012888888881881 or 378282246310005) (Props:  David Pany)  
+ !cc \<Credit Card Number> - Tests validity of a CC number and attempts to determine the brand (ex: 4012888888881881 or 378282246310005)   
  !time \<timezone> - Query time in specified timezone (ex: utc)  
  !weather \<zipcode> - Query the weather in a specified zip code (ex: 21144)  
  !unixtime \<epoch> - Convert Unix time (seconds since Jan 1, 1970) to human readable (ex: 1347517370)  
  !wintime \<epoch> - Convert Windows time (100-nanosecond intervals since January 1, 1601) to human readable (ex: 131580340430000000)  
  !calc \<arithmetic input> - Performs basic arithmetic (Valid input: [0-9]+-/)  (ex: 22*3)  
- !bitcoin - Polls the latest Bitcoin Price Index (Props: CoinDesk)  
- !whatsyourip - Returns CyBot's public IP Address (Props: ipinfo[.]io/ip)  
- !joke - Queries an on-line API repository of jokes (Props: icanhazdadjoke)  
- !codename - Generates a 2 word project codename (Props: Mark Biek)  
+ !bitcoin - Polls the latest Bitcoin Price Index  
+ !whatsyourip - Returns CyBot's public IP Address  
+ !joke - Queries an on-line API repository of jokes  
+ !codename - Generates a 2 word project codename  
 
 
 # Setup steps
@@ -64,13 +64,24 @@ We are excited to share with the world a chat bot that we affectionately call Cy
 
 # Additional Props
 Errbot developers for the fantastic tool and customer service  
-VirusTotal  
-geoip - ip-api.com    
-Google Safebrowsing - https://developers.google.com/safe-browsing/ and Jun C. Valdez  
-Unshorten - unshorten.me  
-Codename - https://mark.biek.org/code-name/  
+vt - VirusTotal  
+hashid  - c0re)  
+safebrowsing - Google & Jun C. Valdez  
+whois - hackertarget[.]com  
+geoip - ip-api[.]com  
+uastring - useragentstring.com  
+ransom - http[:]//goo[.]gl/b9R8DE  
+threat / aptgroup / hacktool - huntoperator  
+cve - CIRCL https[:]//www[.]circl[.]lu  
+secnews/vulnnews - Google News  
+cc - David Pany  
+time - worldclockapi.com  
+weather - wunderground.com  
+bitcoin - CoinDesk  
 whatsyourip - ipinfo[.]io/ip  
-bitcoin - coindesk  
+joke - icanhazdadjoke  
+codename - Mark Biek  
+
 Black Hat Arsenal team for the amazing support and tool release venue
 
 Others:  Bill Hau, Corey White, Dennis Hanzlik, Ian Ahl, Dave Pany, Dan Dumond, Kyle Champlin, Kierian Evans, Andrew Callow, Mark Stevens
