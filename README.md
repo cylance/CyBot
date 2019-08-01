@@ -65,7 +65,7 @@ We are excited to share with the world a chat bot that we affectionately call Cy
 # Additional Props
 Errbot developers for the fantastic tool and customer service  
 vt - VirusTotal  
-hashid  - c0re)  
+hashid  - c0re  
 safebrowsing - Google & Jun C. Valdez  
 whois - hackertarget[.]com  
 geoip - ip-api[.]com  
