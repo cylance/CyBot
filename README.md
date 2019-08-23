@@ -11,16 +11,20 @@ We are excited to share with the world a chat bot that we affectionately call Cy
  **== File commands ==**
 
  !vt \<hash> - VirusTotal Query (ex: 57f222d8fbe0e290b4bf8eaa994ac641)  
+ !vtdownload <hash> - VirusTotal Sample Download (ext: zi_, pass:infected) (ex: 57f222d8fbe0e290b4bf8eaa994ac641)  
+ !cuckoo -<s | u <URL> | vt <hash> | v <task_id> | r <task_id>> (ex: -vt 57f222d8fbe0e290b4bf8eaa994ac641)  
  !hashid \<hash> - Identify a hash type (e.g. MD5, SHA1)  
 
  **== Network commands ==**
 
  !vt \<URL> - VirusTotal Query  
+ !cuckoo -<s | u <URL> | vt <hash> | v <task_id> | r <task_id>> (ex: -vt 57f222d8fbe0e290b4bf8eaa994ac641)  
  !safebrowsing \<URL> - Google Safebrowsing lookup (ex:  ihaveaproblem[.]info)  
  !whois \<domain> - WHOIS Query (ex: cylance[.]com)   
  !nslookup \<FQDN|IP> - DNS forward/reverse Query (ex: www[.]cylance[.]com)  
  !geoip \<FQDN|IP> - Perform GeoIP lookup of host (ex: www[.]cylance[.]com)  
  !unshorten \<shortened URL> - Unshortens URLs (ex: goo[.]gl/IGL1lE)  
+ !screenshot <defanged URL> - Takes a screenshot of a website and returns the .png - Accepts defanged [()] URLs  
  !linkextractor \<FQDN|IP> - Extracts links from a site and safely displays them (ex: hxxps://www[.]google[.]com)  
  !urldecode \<url> - Decodes encoded URLs (ex: /%75%72%6C?%73%61=%74)  
  !uastring \<UA String In Quotes> - Enter a user Agent string in quotes to determine OS and browser (ex: Mozilla/5.0 (Windows NT 10.0; Win64; x64))  
