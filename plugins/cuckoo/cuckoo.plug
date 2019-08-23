@@ -1,0 +1,9 @@
+[Core]
+Name = cuckoo
+Module = cuckoo
+
+[Documentation]
+Description = This plugin interacts with a cuckoo API
+
+[Python]
+Version = 2+
