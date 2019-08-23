@@ -1,0 +1,9 @@
+[Core]
+Name = screenshot
+Module = screenshot
+
+[Documentation]
+Description = This is plugin that will grab a screenshot of a website (Powered by thum.io API  hxxps://www[.]thum[.]io/).
+
+[Python]
+Version = 2+
