@@ -1,0 +1,9 @@
+[Core]
+Name = vtdownload
+Module = vtdownload
+
+[Documentation]
+Description = This plugin will download a malware sample when supplied a hash - private VT key required (Powered by VirusTotal).
+
+[Python]
+Version = 2+
