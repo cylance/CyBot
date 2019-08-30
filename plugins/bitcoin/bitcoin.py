@@ -17,5 +17,10 @@ class bitcoin(BotPlugin):
 
         #read html code
         data = response.json()
-        return(json.dumps(data, sort_keys=True, indent=4))
+        results = "Updated:  " + str(data["time"]["updated"]) + "\r\n"
+        results += "USD:  " + str(data["bpi"]["USD"]["rate"]) + "\r\n"
+        results += "GBP:  " + str(data["bpi"]["GBP"]["rate"]) + "\r\n"
+        results += "EUR:  " + str(data["bpi"]["EUR"]["rate"]) + "\r\n"
+        results += "Disclaimer:  " + str(data["disclaimer"]) + "\r\n"
 
+        return(results)
