@@ -20,5 +20,8 @@ class uastring(BotPlugin):
 
         #read html code
         data = response.json()
-        return(json.dumps(data, sort_keys=True, indent=4))
-
+        answer = "Answer (Non-empty fields): \r\n"
+        for key, value in data.items():
+          if value!="":
+              answer+= str(key) + ": " + str(value) + "\r\n"
+        return(answer)
