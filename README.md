@@ -36,8 +36,8 @@ We are excited to share with the world a chat bot that we affectionately call Cy
  !aptgroup \<search string> - Retrieve information on common APT groups  
  !hacktool \<search string> - Retrieve information on common hacking tools  
  !cve \<#> - Return the last n CVE's  
- !secnews - (Use as Private Message Only) Latest security news  
- !vulnnews - (Use as Private Message Only) Latest vulnerability news  
+ !secnews - (Use as Private Message Only) Latest # of security news articles (default: 10)  
+ !vulnnews - (Use as Private Message Only)  Latest # of vulnerability news articles (default: 10)  
 
  **== Misc ==**
 
