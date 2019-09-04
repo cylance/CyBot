@@ -15,7 +15,12 @@ class time(BotPlugin):
             return("Error:  Could not retrieve time")
             exit()
 
-        #read html code
         data = response.json()
-        return(json.dumps(data, sort_keys=True, indent=4))
-
+        answer = "Time Zone Name: " + str(data["timeZoneName"]) + "\r\n"
+        answer += "Current Date/Time: " + str(data["currentDateTime"]) + "\r\n"
+        answer += "Day of the Week: " + str(data["dayOfTheWeek"]) + "\r\n"
+        answer += "Daylight Saving Time: " + str(data["isDayLightSavingsTime"]) + "\r\n"
+        answer += "Ordinal Date: " + str(data["ordinalDate"]) + "\r\n"
+        answer += "UTC Offset: " + str(data["utcOffset"]) + "\r\n"
+        answer += "Errors: " + str(data["serviceResponse"]) + "\r\n"
+        return(answer)
