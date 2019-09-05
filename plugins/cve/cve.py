@@ -13,7 +13,7 @@ class cve(BotPlugin):
             exit()
 
         # Assign arguments to variables
-        answer = ""
+        answer = "Answer:\r\n"
         arg=args[0]
         if re.match(r'^[\d]{4}\-[\d]{4,7}$', arg): # Specific CVE - response is json
             url = "http://cve.circl.lu/api/cve/CVE-" + arg
