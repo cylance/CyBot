@@ -57,7 +57,9 @@ We are excited to share with the world a chat bot that we affectionately call Cy
 # Setup steps
 1)  Download and install errbot:  http://errbot.io/en/latest/user_guide/setup.html#prerequisites
 
-2)  Configure errbot to work with your chat platform:  http://errbot.io/en/latest/user_guide/setup.html#id1
+2)  Configure errbot to work with your chat platform:  http://errbot.io/en/latest/user_guide/setup.html#id1  
+a)  For help with Slack Setup:  https://github.com/cylance/CyBot/blob/master/CyBot-Arsenal-BH-USA-2019.pdf  
+b)  For help with Teams Setup:  http://securitysynapse.blogspot.com/2019/09/cybot-on-microsoft-teams.html  
 
 3)  Download our plugins from this github repo and copy them into the errbot plugins directory
 
